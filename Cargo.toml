@@ -1,0 +1,8 @@
+[package]
+name = "wheresmyprinter"
+version = "0.1.0"
+authors = ["Andrew Gauger <andygauge@gmail.com>"]
+
+[dependencies]
+local-ip = { git = "https://github.com/AndyGauge/rust-local-ip.git" }
+ipnetwork="0.12.6"
